@@ -1,0 +1,106 @@
+# Dependencies
+node_modules/
+jspm_packages/
+.npm
+.yarn/
+.yarn-integrity
+.pnp.*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+!.env*.example
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vercel/
+.netlify/
+
+# Vite
+.vite/
+*.local
+
+# Hardhat / Solidity
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+gasReporterOutput.json
+contracts/deployed-addresses.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test / coverage
+*.lcov
+.nyc_output/
+*.test
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+*.tsbuildinfo
+
+# Packaging
+*.tgz
+
+# IDE / editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temp
+tmp/
+temp/
+.temp/
+.tmp/
+
+# Docker
+*.tar
+
+# Cursor / local agent
+.cursor/
